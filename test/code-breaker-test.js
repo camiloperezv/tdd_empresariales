@@ -44,8 +44,7 @@ describe('CodeBreaker', function() {
   it('should return ERROR no number is sended', function() {
     let result = CodeBreaker.codeBreaker();
     assert.equal('ERROR',result);
-  });
-
+  })
   it('should return ERROR number length is greather than 4', function() {
     let result = CodeBreaker.codeBreaker(12345);
     assert.equal('ERROR',result);
